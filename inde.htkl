@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>أنشئ موقعك الإلكتروني</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial,Tahoma,sans-serif;
+}
+
+body{
+    color:white;
+    min-height:100vh;
+    background:
+    radial-gradient(circle at 15% 20%,#159cff55,transparent 30%),
+    radial-gradient(circle at 85% 75%,#00d9ff33,transparent 30%),
+    linear-gradient(135deg,#031a4d,#0073df,#001536);
+}
+
+.container{
+    width:92%;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* المقدمة */
+header{
+    text-align:center;
+    padding:65px 15px 40px;
+}
+
+header .icon{
+    font-size:55px;
+}
+
+header h1{
+    font-size:42px;
+    margin:18px 0;
+}
+
+header h1 span{
+    color:#50ddff;
+}
+
+header p{
+    max-width:780px;
+    margin:auto;
+    font-size:19px;
+    line-height:2;
+    color:#e5f8ff;
+}
+
+/* المقال */
+.article{
+    background:#ffffff18;
+    border:1px solid #ffffff25;
+    border-radius:25px;
+    padding:35px;
+    margin-bottom:30px;
+    box-shadow:0 15px 45px #0005;
+    backdrop-filter:blur(10px);
+}
+
+.article h2{
+    margin-bottom:18px;
+    font-size:28px;
+}
+
+.article p{
+    font-size:18px;
+    line-height:2;
+    color:#eaf8ff;
+}
+
+/* العرض */
+.offer{
+    text-align:center;
+    background:#ffffff18;
+    border:2px solid #ffffff30;
+    padding:35px 25px;
+    border-radius:25px;
+    margin-bottom:30px;
+    box-shadow:0 15px 45px #0005;
+}
+
+.badge{
+    display:inline-block;
+    background:#ff3030;
+    padding:10px 22px;
+    border-radius:30px;
+    font-weight:bold;
+    margin-bottom:18px;
+}
+
+.offer h2{
+    font-size:31px;
+    margin-bottom:15px;
+}
+
+.offer h2 span{
+    color:#55e3ff;
+}
+
+.offer > p{
+    line-height:1.9;
+    color:#eaf8ff;
+}
+
+.items{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin:25px 0;
+}
+
+.item{
+    background:#ffffff15;
+    padding:22px 10px;
+    border-radius:17px;
+}
+
+.item .emoji{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.item p{
+    color:#dff5ff;
+    margin-top:8px;
+}
+
+.price{
+    display:inline-block;
+    background:#08b85a;
+    padding:14px 35px;
+    border-radius:12px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* الطلب */
+.order{
+    background:white;
+    color:#222;
+    border-radius:25px;
+    padding:35px;
+    margin-bottom:30px;
+    box-shadow:0 15px 45px #0005;
+}
+
+.order h2{
+    text-align:center;
+    color:#005db5;
+    margin-bottom:25px;
+    font-size:29px;
+}
+
+form{
+    display:grid;
+    gap:15px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:16px;
+    border:1px solid #ddd;
+    border-radius:12px;
+    font-size:16px;
+    outline:none;
+}
+
+textarea{
+    min-height:140px;
+    resize:vertical;
+}
+
+button{
+    border:0;
+    padding:17px;
+    border-radius:12px;
+    background:#08b85a;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#069d4c;
+}
+
+/* الدعم */
+.support{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.support a{
+    display:inline-block;
+    background:#1877f2;
+    color:white;
+    padding:15px 30px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#cdefff;
+}
+
+@media(max-width:700px){
+
+    header h1{
+        font-size:31px;
+    }
+
+    header p{
+        font-size:17px;
+    }
+
+    .article,
+    .offer,
+    .order{
+        padding:22px;
+    }
+
+    .items{
+        grid-template-columns:1fr;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- المقدمة -->
+
+<header>
+
+<div class="icon">🌐</div>
+
+<h1>
+أنشئ <span>موقعك الإلكتروني</span> باحترافية
+</h1>
+
+<p>
+حوّل فكرتك إلى موقع إلكتروني عصري ومميز يعكس هويتك
+ويمنح مشروعك حضورًا قويًا على الإنترنت.
+نحن نهتم بالتصميم، السرعة، سهولة الاستخدام
+وتوافق الموقع مع الهاتف والكمبيوتر.
+</p>
+
+</header>
+
+
+<!-- المقال -->
+
+<section class="article">
+
+<h2>💻 اجعل مشروعك يظهر بشكل احترافي</h2>
+
+<p>
+وجود موقع إلكتروني يساعدك على عرض خدماتك ومعلوماتك
+بطريقة منظمة، والوصول إلى عملائك بسهولة في أي وقت.
+نقوم بتصميم موقع يناسب فكرتك ويمنح الزائر تجربة
+بسيطة وسريعة ومريحة.
+</p>
+
+<br>
+
+<p>
+كل ما عليك هو إرسال فكرتك والمعلومات التي تريد وضعها
+في الموقع، وسنتولى تحويلها إلى صفحة إلكترونية جميلة
+ومتجاوبة مع مختلف الأجهزة.
+</p>
+
+</section>
+
+
+<!-- العرض -->
+
+<section class="offer">
+
+<div class="badge">
+🔥 عرض خاص
+</div>
+
+<h2>
+موقع إلكتروني بـ
+<span>2500 دج فقط</span>
+</h2>
+
+<p>
+احصل على موقع إلكتروني احترافي، بالإضافة إلى هدايا
+إعلانية مجانية لمساعدتك على تقديم مشروعك بشكل أفضل.
+</p>
+
+
+<div class="items">
+
+<div class="item">
+
+<div class="emoji">🌐</div>
+
+<h3>موقع إلكتروني</h3>
+
+<p>
+تصميم احترافي حسب طلبك
+</p>
+
+</div>
+
+
+<div class="item">
+
+<div class="emoji">🎬</div>
+
+<h3>فيديو إعلاني مجاني</h3>
+
+<p>
+فيديو احترافي لمدة دقيقة
+</p>
+
+</div>
+
+
+<div class="item">
+
+<div class="emoji">🖼️</div>
+
+<h3>صورة إعلانية مجانية</h3>
+
+<p>
+تصميم إعلاني لمشروعك
+</p>
+
+</div>
+
+</div>
+
+
+<div class="price">
+2500 دج
+</div>
+
+</section>
+
+
+<!-- نموذج الطلب -->
+
+<section class="order">
+
+<h2>
+🚀 اطلب موقعك الآن
+</h2>
+
+<form onsubmit="sendWhatsApp(event)">
+
+<input
+id="name"
+type="text"
+placeholder="الاسم الكامل"
+required
+>
+
+<input
+id="phone"
+type="tel"
+placeholder="رقم الهاتف"
+required
+>
+
+<input
+id="email"
+type="email"
+placeholder="البريد الإلكتروني"
+>
+
+<textarea
+id="details"
+placeholder="اكتب فكرتك أو المعلومات التي تريدها في الموقع..."
+required
+></textarea>
+
+<button type="submit">
+📩 إرسال طلب الموقع عبر WhatsApp
+</button>
+
+</form>
+
+</section>
+
+
+<!-- الدعم -->
+
+<div class="support">
+
+<a
+href="https://www.facebook.com/mch.lorinzo"
+target="_blank">
+
+👨‍💻 التواصل مع فريق الدعم
+
+</a>
+
+</div>
+
+
+<footer>
+
+© 2026 جميع الحقوق محفوظة
+
+</footer>
+
+</div>
+
+
+<script>
+
+function sendWhatsApp(event){
+
+event.preventDefault();
+
+const name =
+document.getElementById("name").value;
+
+const phone =
+document.getElementById("phone").value;
+
+const email =
+document.getElementById("email").value;
+
+const details =
+document.getElementById("details").value;
+
+
+const message = `🌐 طلب إنشاء موقع إلكتروني
+
+👤 الاسم:
+${name}
+
+📱 رقم الهاتف:
+${phone}
+
+📧 البريد الإلكتروني:
+${email}
+
+💰 السعر:
+2500 دج
+
+🎁 العرض:
+فيديو إعلاني لمدة دقيقة + صورة إعلانية مجانية
+
+📝 تفاصيل الطلب:
+${details}`;
+
+
+const whatsapp =
+"https://wa.me/213772711667?text="
++
+encodeURIComponent(message);
+
+
+window.open(whatsapp,"_blank");
+
+}
+
+</script>
+
+</body>
+</html>
